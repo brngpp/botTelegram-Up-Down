@@ -1,7 +1,7 @@
 import telebot
 import time
 import wget
-token ='1629663298:AAGIgrDZlmIyb-ORnlLm7uOiU9uYx4uGWZI'
+token =
 bot = telebot.TeleBot(token)
 dir=r'C:\Users\zol\Desktop\filedatelegram'
 
@@ -60,3 +60,4 @@ def send_risp(msg):
 #def send_invio(msg):
 #    bot.send_photo(msg.chat.id,photo=open((picGP),'rb'))
 bot.polling()
+
